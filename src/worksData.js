@@ -19,7 +19,7 @@ const worksData = [
     info1: {
       title: "Adv Campaign on TikTok for The Movie: Five Feet Apart",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus arcu, sit amet pulvinar mauris vulputate et. Maecenas sed venenatis purus. Phasellus nec semper libero, eget pharetra nulla. Sed viverra maximus lacinia. Sed condimentum lorem orci, vitae finibus nunc viverra a. Suspendisse volutpat imperdiet leo, sit amet tincidunt sapien interdum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ultricies eu dui ac finibus. Praesent aliquet risus mi, sed volutpat tellus faucibus eu. Nunc ultricies velit ex, in varius mauris ullamcorper eu. Sed non cursus arcu, nec gravida elit. Morbi luctus leo enim, in imperdiet nisl accumsan vitae. Donec non odio nulla. Duis hendrerit placerat nisl sed fermentum. Aliquam fermentum felis arcu, id lobortis risus feugiat quis. Phasellus non pretium mi."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus arcu, sit amet pulvinar mauris vulputate et. Maecenas sed venenatis purus. Phasellus nec semper libero, eget pharetra nulla. Sed viverra maximus lacinia. Sed condimentum lorem orci, vitae finibus nunc viverra a. Suspendisse volutpat imperdiet leo, sit amet tincidunt sapien interdum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ultricies eu dui ac finibus."
     },
     info2: {
       title: null,

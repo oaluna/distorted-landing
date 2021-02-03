@@ -58,16 +58,17 @@
 .bannerTitle h3 {
   font-weight: 900;
   font-size: 2vw;
-  color: rgb(50, 50, 50);
+  color: rgb(17, 20, 57);
 }
 
 .bannerTitle h1 {
   font-weight: 900;
   font-size: 7vw;
-  color: rgb(50, 50, 50);
+  color: rgb(17, 20, 57);
 }
 
 .wordPrinter {
+  position:fixed;
   font-weight: 900;
   font-size: 7vw;
   color: rgb(255, 195, 72);
@@ -80,9 +81,10 @@
 }
 
 .wordPrinterBack {
+  position: fixed;
   font-weight: 900;
   z-index: -1;
-  color: lightgrey;
+  color: slateblue;
   opacity: 0.2;
   grid-column: 1/12;
   grid-row: 2/11;
@@ -263,26 +265,26 @@
   }
   /**/
   49% {
-    content: "w";
+    content: "f";
   }
   50% {
-    content: "web";
+    content: "fro";
   }
   51% {
-    content: "webd";
+    content: "front";
   }
   52%,
   59% {
-    content: "webdev";
+    content: "frontend";
   }
   60% {
-    content: "webd";
+    content: "front";
   }
   61% {
-    content: "we";
+    content: "fr";
   }
   62% {
-    content: "w";
+    content: "f";
   }
   /**/
   63% {

@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   background-color:rgba(18, 20, 59, 1);
+
   z-index: 1000;
 }
 
@@ -28,6 +29,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100%, auto);
+  color: white;
 }
 
 .pastelBoxFull {
@@ -35,7 +37,7 @@
 }
 
 .pastelContent > :nth-child(odd) {
-  background-color: #fafafa;
+  background-color: rgba(18, 20, 59, 1);
 }
 
 .pastelBox {
@@ -47,6 +49,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 300px;
+  color: white;
+
 }
 
 .pastelImageSmall {
@@ -84,17 +88,20 @@
   display: flex;
   padding: 20px;
   box-sizing: border-box;
+  color: white;
   flex-direction: column;
 }
 
 .pastelInfo h2 {
   padding-bottom: 10px;
+  color: white;
 }
 
 .pastelInfoTags {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
+
 }
 
 .pastelInfo h5 {
@@ -105,6 +112,7 @@
   border-radius: 35px;
   margin: 5px 10px 5px 0;
   color: white;
+  border: 2px solid white;
 }
 
 .pastelInfo p {
@@ -174,7 +182,7 @@
 }
 
 .falcoSocialBox h2 {
-  color: rgb(255, 195, 72);
+  color: white;
   padding-bottom: 10px;
 }
 

@@ -85,7 +85,7 @@
   line-height: 1.6;
 }
 
-.gaigaBoxLogo {
+.gaiaBoxLogo {
   width: 150px;
   height: auto;
 }
@@ -112,11 +112,11 @@
 @keyframes gaiaExtraActive {
   0% {
     left: 105vw;
-    border-left: solid 30vw rgb(255, 195, 72);
+    border-left: solid 30vw  rgba(18, 20, 59, 1);
   }
   100% {
     left: 0;
-    border-left: solid 0px rgb(255, 195, 72);
+    border-left: solid 0px  rgba(18, 20, 59, 1);
   }
 }
 
