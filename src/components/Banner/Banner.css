@@ -63,21 +63,22 @@
 
 .bannerTitle h1 {
   font-weight: 900;
-  font-size: 7vw;
+  font-size: 10vw;
   color: rgb(17, 20, 57);
 }
 
 .wordPrinter {
   position:fixed;
-  font-weight: 900;
+  font-weight: 100;
   font-size: 7vw;
-  color: rgb(255, 195, 72);
+  color: rgb(0, 28, 89);
   line-height: 1;
 }
 .wordPrinter::before {
   content: "_";
-  font-size: 7vw;
+  font-size: 10vw;
   animation: words 9s linear infinite;
+  animation-delay: 500ms;
 }
 
 .wordPrinterBack {

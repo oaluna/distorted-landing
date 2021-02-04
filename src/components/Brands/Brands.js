@@ -5,18 +5,18 @@ const BrandsSection = () => (
       <div className="sectionContainer">
         <div className="sectionContent">
           <div className="sectionTitle">
-            <h3>Sample Banner of your future partners:</h3>
+            <h3>Technologies I like to work with:</h3>
           </div>
 
           <div className="brandsList">
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/notorious-pictures.png" alt="Notorius Pictures"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/ubilogo_h-1.png" alt="UBI Logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/Subdued.png" alt="Subdued Logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/LiuJo-1.png" alt="Liu Jo Logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/ItaliasGotTalent-1.png" alt="Italia\'s Got Talent Logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/05/GameStop.png" alt="GameStop logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/05/LeoneFilm.png" alt="Leone Films Logo"/>
-            <img src="https://socialflowagency.com/wp-content/uploads/2019/03/ItaliasGotTalent-1.png" alt="Italia\'s got Talent Logo"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="ReactJS"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" alt="NextJS"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-1.svg" alt="Apollo"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/graphql.svg" alt="GraphQL"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="Redux"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/sass-1.svg" alt="Sass"/>
+            <img src="https://cdn.worldvectorlogo.com/logos/mongodb.svg" alt="MongoDB"/>
           </div>
         </div>
       </div>

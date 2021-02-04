@@ -148,3 +148,100 @@ class ShowPage extends Component {
 }
 
 export default App;
+
+
+//  const App = () => {
+
+//   const [activePage, setActivePage] = useState("homepage")
+//   const [toggleAnimation, setToggleAnimation] = useState(true)
+
+//   const handlePageChange = () => setActivePage(pageName)
+
+// return (
+// <div className="siteContainer">
+//   <TopBarMenu onChange={handlePageChange} />
+//   <div className="siteContent">
+//     <div className={toggleAnimation ? "pageContainer pageAnimation1" : "pageContainer pageAnimation2"}>
+//       <div className="siteContent">
+//         <div className="logoContainer hideOnDesktop" onClick={() => showPage("homepage")}></div>
+//         <ShowPage pageName={activePage} handlePageChange={handlePageChange} />
+//       </div>
+//     </div>
+//   </div>
+// </div>
+// )
+//  }
+// const ShowPage = (props) => {
+//   const [addAnimation, setAddAnimation] = useState(false)
+
+//   const showPage = (pageName) => {
+//     if (pageName === "homepage") {
+//       return (
+//         <div className="pageWrapperContent">
+//           <Banner />
+//           <BrandsSection />
+//           <TitanBox />
+//           <div className="sectionTitle latestWorkTitle">
+//             <h3>Take a look at our latest works:</h3>
+//           </div>
+//           <div className="yukonBoxPosition">
+//             <YukonBox changePage={props.changePage} />
+//           </div>
+//           <Footer handleChangePage={props.handleChangePage} />
+//         </div>
+//       )
+//     }
+//     if (pageName === "influencers") {
+//       return (
+//         <div className="pageWrapperContent">
+//           <PageBanner
+//             pageName="influencers"
+//             changePage={props.handleChangePage}
+//           />
+//           <GaiaSystem data={"artists"} />
+//           <Footer changePage={props.handleChangePage} />
+//         </div>
+//       );
+//     }
+//     if (pageName === "aboutus") {
+//       return (
+//         <div className="pageWrapperContent">
+//           <PageBanner
+//             pageName="aboutus"
+//             changePage={props.handleChangePage}
+//           />
+//           <MiraContacts />
+//           <Footer changePage={props.handleChangePage} />
+//         </div>
+//       );
+//     }
+//     if (pageName === "services") {
+//       return (
+//         <div className="pageWrapperContent">
+//           <PageBanner
+//             pageName="services"
+//             changePage={props.handleChangePage}
+//           />
+//           <ServicesSection />
+//           <Footer changePage={props.handleChangePage} />
+//         </div>
+//       );
+//     }
+//     if (pageName === "works") {
+//       return (
+//         <div className="pageWrapperContent">
+//           <PageBanner
+//             pageName="works"
+//             changePage={props.handleChangePage}
+//           />
+//           <GaiaSystem data={"works"} />
+//           <Footer changePage={props.handleChangePage} />
+//         </div>
+//       );
+//     }
+//   }
+//   return (
+//     <div className="pageWrapper">{showPage(this.props.pageName)}</div>
+//   );
+// }
+
