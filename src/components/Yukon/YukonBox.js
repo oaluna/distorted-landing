@@ -11,9 +11,8 @@ const YukonBox = (props) => (
           Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
           consectetur...{' '}
         </p>
-        <h4>Total Reach:</h4>
         <h2>
-          12M<span className='secodnaryColor'>+</span>
+         Visit<span className='secodnaryColor'></span>
         </h2>
       </div>
 

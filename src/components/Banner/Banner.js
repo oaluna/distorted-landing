@@ -1,6 +1,6 @@
-import Crystal from '../Crystal/Crystal';
+//import Crystal from '../Crystal/Crystal';
 import './Banner.css';
-import Business from '../../business.svg';
+//import Business from '../../business.svg';
 
 const Banner = () => (
   <div className='bannerContainer'>
@@ -36,7 +36,7 @@ const Banner = () => (
   loop
   mode="normal"
   src="https://assets4.lottiefiles.com/packages/lf20_iorpbol0.json"
-  style={{marginLeft: '-10vw', marginTop: '-5vh', width: '500px'}}
+  style={{marginLeft: '-10vw', marginTop: '-10vh', width: '500px'}}
 >
 </lottie-player>
       </div>

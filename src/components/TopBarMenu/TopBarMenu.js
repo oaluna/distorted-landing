@@ -23,9 +23,9 @@ const TopBarMenu = (props) => {
           className={
             mobileMenuActive ? 'hamburger hamburgerActive' : 'hamburger'
           }>
-          <div className='line1'>-</div>
-          <div className='line2'>-</div>
-          <div className='line3'>-</div>
+          <div className='line1'></div>
+          <div className='line2'></div>
+          <div className='line3'></div>
         </div>
 
         <div
@@ -39,7 +39,7 @@ const TopBarMenu = (props) => {
 
           <div className='menuContent'>
             <div className='logoWrapper' style={{position: 'relative'}}onClick={(e) => showPage('homepage')}>
-              <img src='https://svgshare.com/i/DAT.svg' alt='site logo' />
+              <img src="https://www.svgrepo.com/show/187683/crescent-moon-moon.svg" alt='site logo' />
               <h4>Luna Web Solutions</h4>
             </div>
 

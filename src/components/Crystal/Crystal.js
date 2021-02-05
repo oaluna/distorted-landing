@@ -1,8 +1,8 @@
 import './Crystal.css';
 import SailorMoon from '../../sailormoon.svg';
 const Crystal = () => (
-  <div class='crystalContainer'>
-    <div class='crystalContent gradient-pattern'>
+  <div className='crystalContainer'>
+    <div className='crystalContent gradient-pattern'>
       <img
         src={SailorMoon}
         style={{
@@ -11,7 +11,7 @@ const Crystal = () => (
         }}
         alt='Bishoujo Senshi Sailor Moon!'
       />
-      <div class='crystalShadow'>
+      <div className='crystalShadow'>
         <img
           src={SailorMoon}
           style={{
@@ -20,7 +20,7 @@ const Crystal = () => (
           }}
           alt='Bishoujo Senshi Sailor Moon!'
         />
-        <div class='crystalMain'>
+        <div className='crystalMain'>
           <img
             src={SailorMoon}
             style={{
@@ -29,7 +29,7 @@ const Crystal = () => (
             }}
             alt='Bishoujo Senshi Sailor Moon!'
           />
-          <div class='crystalFragments'>
+          <div className='crystalFragments'>
             <img
               src={SailorMoon}
               style={{
@@ -38,7 +38,7 @@ const Crystal = () => (
               }}
               alt='Bishoujo Senshi Sailor Moon!'
             />
-            <div class='crystalGlow'>
+            <div className='crystalGlow'>
               <img
                 src={SailorMoon}
                 style={{

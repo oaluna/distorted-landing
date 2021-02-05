@@ -7,11 +7,11 @@ const socialsData = [
     tagYoutube: "",
     linkYoutube: "",
     tagFacebook: "",
-    tagFacebook: "",
+    linkFacebook: "",
     tagTikTok: "",
-    tagTikTok: "",
-    tagTwitter: "",
-    linkTwitter: "",
+    linkTikTok: "",
+    tagTwitter: "@LunaWebDev",
+    linkTwitter: "https://twitter.com/LunaWebDev",
     tagLinkedin: "",
     linkLinkedin: "https://linkedin.com/in/oscar-a-luna"
   }

@@ -45,7 +45,7 @@
 .yukonBoxImage {
   width: 40%;
   height: 100%;
-  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/190312102745-five-feet-apart-large-169.jpg);
+background-image: url('../../portfolioScreenshot.png');
   background-size: cover;
   background-position: center;
 }

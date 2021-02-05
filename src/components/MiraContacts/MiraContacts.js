@@ -16,6 +16,7 @@ const MiraContacts = () => (
         <div className='miraContactBox'>
           <h3> Say Hello </h3>
           <h4> oscarluna.webdev@gmail.com </h4>
+
         </div>
 
         <div className='miraContactBox'>
