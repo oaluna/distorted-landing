@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Logo from "../../Logo";
 import './TopBarMenu.css';
 
 const TopBarMenu = (props) => {
@@ -39,15 +40,13 @@ const TopBarMenu = (props) => {
 
           <div className='menuContent'>
             <div className='logoWrapper' style={{position: 'relative'}}onClick={(e) => showPage('homepage')}>
-              <img src="https://www.svgrepo.com/show/187683/crescent-moon-moon.svg" alt='site logo' />
-              <h4>Luna Web Solutions</h4>
+              <span><Logo style={{height: '50px'}}/></span>
             </div>
 
             <div className='menuItems'>
-              <h5 onClick={(e) => showPage('services')}> Services </h5>
-              <h5 onClick={(e) => showPage('works')}> Case History </h5>
-              <h5 onClick={(e) => showPage('influencers')}> Influencers </h5>
-              <h5 onClick={(e) => showPage('aboutus')}> About Us </h5>
+              <p onClick={(e) => showPage('services')}> Services </p>
+              <p onClick={(e) => showPage('works')}> Case History </p>
+              <p onClick={(e) => showPage('aboutus')}> About Us </p>
               <button
                 className='mediumButton'
                 onClick={(e) => showPage('aboutus')}>

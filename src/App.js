@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+
 import Banner from "./components/Banner/Banner.js"
 import BrandsSection from "./components/Brands/Brands.js"
 import Footer from "./components/Footer/Footer.js"
@@ -244,4 +245,3 @@ export default App;
 //     <div className="pageWrapper">{showPage(this.props.pageName)}</div>
 //   );
 // }
-

@@ -21,8 +21,7 @@ const TitanBox = (props) => (
               Maecenas sed venenatis purus. Phasellus nec semper libero, eget
               pharetra nulla. Sed viverra maximus lacinia. Sed condimentum lorem
               orci, vitae finibus nunc viverra a. Suspendisse volutpat imperdiet
-              leo, sit amet tincidunt sapien interdum et. ( Insights, Brand
-              positioning, Trends, Content strategy, Timing )
+              leo, sit amet tincidunt sapien interdum et.
             </p>
           </div>
 
@@ -37,7 +36,7 @@ const TitanBox = (props) => (
               pharetra nulla. Sed viverra maximus lacinia.
             </p>
           </div>
-          <div className='titanBoxImage titanBoxIl1'> <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4VvdIQ.json"  background="transparent"  speed="1"  style={{width: '700px', height: '700px'}} loop  autoplay></lottie-player></div>
+          <div className='titanBoxImage titanBoxIl1'> <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4VvdIQ.json"  background="transparent"  speed="1"  style={{width: '800px', height: '800px'}} loop  autoplay></lottie-player></div>
 
           <div className='titanBoxImage titanBoxIl3'>
           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_B2qAl3/data.json"  background="transparent"  speed="1"  style={{width: '700px', height: '700px'}}  loop  autoplay></lottie-player>

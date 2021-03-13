@@ -12,6 +12,9 @@
   width: 100%;
   padding: 5px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .footerCopyrightNotice p {
@@ -22,6 +25,7 @@
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,10 +34,11 @@
 
 .footerSocials a {
   margin: 0px 12px;
+
 }
 
 .footerSocials img {
-  mix-blend-mode: difference;
+
   height: 25px;
   cursor: pointer;
 }
@@ -51,7 +56,7 @@
 
 .contactMenuContainer h2 {
   font-size: 35px;
-  color: rgba(18, 20, 59, 1);
+  color:slateblue;
   padding-bottom: 10px;
 }
 
@@ -74,22 +79,27 @@
   float: left;
   padding: 20px 35px 0px 35px;
   cursor: pointer;
-  border-right: 1px dotted rgba(18, 20, 59, 1);
+  border-right: 1px solid slateblue;
 }
 
 .contactMenuItem h3 {
-  padding-bottom: 12px;
+  padding: 15px;
   transition: all 0.2s ease-in;
+color: rgb(100,100,100);
 }
 
-.contactMenuItem:hover h3 {
-  color: rgba(18, 20, 59, 1);
-  padding-top: 5px;
-  padding-bottom: 5px;
+.contactMenuItem h3:hover {
+  color:slateblue;
+
+  background: linear-gradient(145deg, #ffffff, #d8dfe6);
+  border-radius: 50px;
+  box-shadow:  10px 10px 30px #ccd3d9,
+             -10px -10px 30px #ffffff;
 }
 
 .contactMenuItem:last-child {
   border: 0px;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -107,7 +117,6 @@
     padding: 0px 0px 0px 0px;
     margin-bottom: 20px;
     border-right: 0px;
-    border-bottom: 1px dotted rgba(18, 20, 59, 1);
     cursor: pointer;
   }
 }

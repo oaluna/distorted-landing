@@ -37,7 +37,7 @@
 }
 
 .pastelContent > :nth-child(odd) {
-  background-color: rgba(18, 20, 59, 1);
+  background-color:slateblue;
 }
 
 .pastelBox {
@@ -107,7 +107,7 @@
 .pastelInfo h5 {
   box-sizing: border-box;
   padding: 5px 10px;
-  background-color: rgba(18, 20, 59, 1);
+  background-color:slateblue;
   width: auto;
   border-radius: 35px;
   margin: 5px 10px 5px 0;
@@ -269,6 +269,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(https://images.unsplash.com/photo-1520942102477-2e3317488976?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    box-shadow:  20px 20px 60px #ccd3d9,
+             -20px -20px 60px #ffffff;
 }
 
 .miraImageBox .miraContactBox {
@@ -284,6 +286,8 @@
 
 .miraImageBox:hover .miraContactBox {
   bottom: 50px;
+  box-shadow:  20px 20px 60px #ccd3d9,
+             -20px -20px 60px #ffffff;
 }
 
 @media only screen and (max-width: 900px) {

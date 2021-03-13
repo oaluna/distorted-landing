@@ -15,10 +15,15 @@
 
 .yukonBoxContainer:hover {
   right: 0px;
+  background: linear-gradient(145deg, #ffffff, #d8dfe6);
+  box-shadow:  10px 10px 30px #ccd3d9,
+             -10px -10px 30px #ffffff;
 }
 
 .yukonBoxContainer:hover .yukonBoxButton {
   opacity: 1;
+  box-shadow:  10px 10px 30px #ccd3d9,
+             -10px -10px 30px #ffffff;
 }
 
 .yukonBoxContent {

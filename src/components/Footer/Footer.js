@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Logo from "../../Logo"
 import './Footer.css';
 
 class Footer extends Component {
@@ -22,6 +22,7 @@ class Footer extends Component {
           </a>
         </div>
         <div className='footerCopyrightNotice'>
+        <Logo style={{marginLeft: '5vw'}}/>
           <p> Copyright ©2021 by Oscar Armando Luna </p>
         </div>
       </div>

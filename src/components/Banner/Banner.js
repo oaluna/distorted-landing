@@ -7,7 +7,7 @@ const Banner = () => (
     <div className='bannerContent'>
       <h2 className='wordPrinterBack'>
         <div className='bannerTitle'>
-          visit https://lunawebdev.com
+          <p style={{fontSize: '56px', marginLeft: '50vw', fontWeight: 100}}>visit https://oscarluna.dev</p>
           <h2 className='wordPrinter'></h2>
         </div>
       </h2>
@@ -20,7 +20,7 @@ const Banner = () => (
       </div>
       <div className='crystalPosition'>
         {/* <Crystal /> */}
-        {/* <h1 style={{position: 'absolute', left: '10vw', top: '15vh', fontSize: '96px'}}>Welcome!<br/> My name is <br/> <span style={{color: 'rgb(18, 20, 59)'}}>Oscar</span></h1> */}
+        {/* <h1 style={{position: 'absolute', left: '10vw', top: '15vh', fontSize: '96px'}}>Welcome!<br/> My name is <br/> <span style={{color: 'slateblue'}}>Oscar</span></h1> */}
         {/* <img
           src={Business}
           style={{
@@ -32,13 +32,15 @@ const Banner = () => (
           alt='Working on a project together'
         /> */}
         <lottie-player
-  autoplay
-  loop
-  mode="normal"
-  src="https://assets4.lottiefiles.com/packages/lf20_iorpbol0.json"
-  style={{marginLeft: '-10vw', marginTop: '-10vh', width: '500px'}}
->
-</lottie-player>
+          autoplay
+          loop
+          mode='normal'
+          src='https://assets4.lottiefiles.com/packages/lf20_iorpbol0.json'
+          style={{
+            marginLeft: '-10vw',
+            marginTop: '-5vh',
+            width: '450px', height: '450px'
+          }}></lottie-player>
       </div>
     </div>
   </div>

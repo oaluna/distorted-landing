@@ -5,7 +5,8 @@ body {
   border: 0;
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);background-repeat: no-repeat;
+  background: linear-gradient(145deg, #ffffff, #d8dfe6);
+  background-repeat: no-repeat;
   background-size: cover;
 
 }
@@ -23,7 +24,7 @@ a {
   display: block;
   margin: 0;
   text-decoration: none;
-  color: rgb(18, 20, 59);
+  color: rgb(100,100,100);
 }
 
 h1 {
@@ -59,56 +60,56 @@ a {
 
 p::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h1::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h2::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h3::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h4::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h5::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 h6::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 a::selection {
   background: transparent;
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 
 .secodnaryColor {
-  color: rgb(18, 20, 59);
+  color: slateblue;
   mix-blend-mode: color-burn;
 }
 
 .primaryColor {
-  color: rgb(50, 50, 50);
+  color: rgb(100,100,100);
 }
 
 .primaryColorBack {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(100,100,100);
 }
 
 .blockScroll {
@@ -125,24 +126,22 @@ a::selection {
 .mediumButton {
   padding: 10px 20px 10px 20px;
   border-radius: 100px;
-  background: linear-gradient(
-    135deg,
-    rgba(18, 20, 59, 0.1) 0%,
-    rgba(18, 20, 59, 1)) 100%
-  ;
-  box-shadow: 0px 4px 8px 4px rgba(18, 20, 59, 0.6);
+  border-radius: 50px;
+
   border: 0;
-  color: white;
+  color: rgb(100,100,100);
   font-size: 18px;
   font-weight: 600;
   transition: all 0.3s ease;
   cursor: pointer;
-  margin: auto;
+  margin: 5px;
 }
 
 .mediumButton:hover {
+  color: slateblue;
   transform: scale(1.02);
-  box-shadow: 0px 4px 12px 6px rgba(18, 20, 59, 1);
+box-shadow:  10px 10px 30px #ccd3d9,
+             -10px -10px 30px #ffffff;
 }
 
 .siteContainer {

@@ -19,7 +19,7 @@ h2.sectionTitle {
  margin-top: 45px;
  margin-bottom: 45px;
   box-sizing: border-box;
-  color: rgba(18, 20, 59, 1);
+  color:slateblue;
   display: grid;
   transition: all 0.3s ease;
   grid-template-columns: repeat(2, 1fr);
