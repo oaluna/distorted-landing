@@ -20,7 +20,14 @@
   align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
+  border-radius: 50px;
   padding: 30px 20px;
+  transition: 0.3s;
+}
+.junoCard:hover {
+  color: slateblue;
+  box-shadow:  10px 10px 30px #ccd3d9,
+             -10px -10px 30px #ffffff;
 }
 
 .junoCardImage {

@@ -61,9 +61,9 @@ const PageBanner = (props) => {
               <span>
                 https://
                 <br />
-                lunawebdev
+                oscarluna
                 <br />
-                .com
+                .dev
               </span>{' '}
               for
               <br /> more

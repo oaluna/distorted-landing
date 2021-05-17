@@ -5,25 +5,23 @@
   box-sizing: border-box;
 }
 
-h2.sectionTitle {
+h1.sectionTitle {
   font-size: 64px;
-  height: 0vh;
-  margin:0;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  margin-top: -20vh;
+  margin-bottom: 0px;
+  padding-top: 0;
+  display: grid;
+  line-height: 1;
 }
 
 .titanBoxContent {
-  width: 100%;
-  height: 100%;
- margin-top: 45px;
- margin-bottom: 45px;
   box-sizing: border-box;
   color:slateblue;
   display: grid;
   transition: all 0.3s ease;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: -20vh;
 }
 
 .titanBoxContent :nth-child(1) {
@@ -89,6 +87,8 @@ h2.sectionTitle {
   background-position: center;
   min-height: 500px;
   min-width: 500px;
+  position: relative;
+  margin-top: 5vh;
 }
 
 .titanBoxIl1 {

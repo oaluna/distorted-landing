@@ -8,8 +8,7 @@ const YukonBox = (props) => (
         <h4> Latest campaign: </h4>
         <p>
           {' '}
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur...{' '}
+          My previous portfolio page lunawebdev.com. Created using React, Gatsby, Node.js{' '}
         </p>
         <h2>
          Visit<span className='secodnaryColor'></span>

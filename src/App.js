@@ -1,15 +1,15 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
 
-import Banner from "./components/Banner/Banner.js"
-import BrandsSection from "./components/Brands/Brands.js"
-import Footer from "./components/Footer/Footer.js"
-import GaiaSystem from "./components/Gaia/GaiaSystem.js"
-import MiraContacts from "./components/MiraContacts/MiraContacts.js"
-import PageBanner from "./components/PageBanner/PageBanner.js"
-import ServicesSection from "./components/Services/Services.js"
-import TitanBox from "./components/Titan/TitanBox.js"
-import TopBarMenu from "./components/TopBarMenu/TopBarMenu.js"
-import YukonBox from "./components/Yukon/YukonBox.js"
+import Banner from './components/Banner/Banner.js';
+import BrandsSection from './components/Brands/Brands.js';
+import Footer from './components/Footer/Footer.js';
+import GaiaSystem from './components/Gaia/GaiaSystem.js';
+import MiraContacts from './components/MiraContacts/MiraContacts.js';
+import PageBanner from './components/PageBanner/PageBanner.js';
+import ServicesSection from './components/Services/Services.js';
+import TitanBox from './components/Titan/TitanBox.js';
+import TopBarMenu from './components/TopBarMenu/TopBarMenu.js';
+import YukonBox from './components/Yukon/YukonBox.js';
 
 /*--- HOMEPAGE MAIN COMPONENT ---*/
 
@@ -18,7 +18,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      activePage: "homepage",
+      activePage: 'homepage',
       toggleAnimation: true
     };
   }
@@ -32,23 +32,19 @@ class App extends Component {
 
   render() {
     return (
-      <div className="siteContainer">
+      <div className='siteContainer'>
         <TopBarMenu changePage={this.changePage.bind(this)} />
-        <div className="siteContent">
+        <div className='siteContent'>
           <div
             className={
               this.state.toggleAnimation
-                ? "pageContainer pageAnimation1"
-                : "pageContainer pageAnimation2"
-            }
-          >
-            <div className="pageContent">
+                ? 'pageContainer pageAnimation1'
+                : 'pageContainer pageAnimation2'
+            }>
+            <div className='pageContent'>
               <div
-                className="logoWrapper hideOnDesktop"
-                onClick={e => this.showPage("homepage")}
-              >
-
-              </div>
+                className='logoWrapper hideOnDesktop'
+                onClick={(e) => this.showPage('homepage')}></div>
               <ShowPage
                 pageName={this.state.activePage}
                 changePage={this.changePage.bind(this)}
@@ -75,39 +71,39 @@ class ShowPage extends Component {
   }
 
   showPage(pageName) {
-    if (pageName === "homepage") {
+    if (pageName === 'homepage') {
       return (
-        <div className="pageWrapperContent">
+        <div className='pageWrapperContent'>
           <Banner />
           <BrandsSection />
           <TitanBox />
-          <div className="sectionTitle latestWorkTitle">
+          <div className='sectionTitle latestWorkTitle'>
             <h3>Take a look at our latest works:</h3>
           </div>
-          <div className="yukonBoxPosition">
+          <div className='yukonBoxPosition'>
             <YukonBox changePage={this.props.changePage.bind(this)} />
           </div>
           <Footer changePage={this.props.changePage.bind(this)} />
         </div>
       );
     }
-    if (pageName === "influencers") {
+    if (pageName === 'projects') {
       return (
-        <div className="pageWrapperContent">
+        <div className='pageWrapperContent'>
           <PageBanner
-            pageName="influencers"
+            pageName='projects'
             changePage={this.props.changePage.bind(this)}
           />
-          <GaiaSystem data={"artists"} />
+          <GaiaSystem data={'projects'} />
           <Footer changePage={this.props.changePage.bind(this)} />
         </div>
       );
     }
-    if (pageName === "aboutus") {
+    if (pageName === 'aboutus') {
       return (
-        <div className="pageWrapperContent">
+        <div className='pageWrapperContent'>
           <PageBanner
-            pageName="aboutus"
+            pageName='aboutus'
             changePage={this.props.changePage.bind(this)}
           />
           <MiraContacts />
@@ -115,11 +111,11 @@ class ShowPage extends Component {
         </div>
       );
     }
-    if (pageName === "services") {
+    if (pageName === 'services') {
       return (
-        <div className="pageWrapperContent">
+        <div className='pageWrapperContent'>
           <PageBanner
-            pageName="services"
+            pageName='services'
             changePage={this.props.changePage.bind(this)}
           />
           <ServicesSection />
@@ -127,14 +123,14 @@ class ShowPage extends Component {
         </div>
       );
     }
-    if (pageName === "works") {
+    if (pageName === 'works') {
       return (
-        <div className="pageWrapperContent">
+        <div className='pageWrapperContent'>
           <PageBanner
-            pageName="works"
+            pageName='works'
             changePage={this.props.changePage.bind(this)}
           />
-          <GaiaSystem data={"works"} />
+          <GaiaSystem data={'works'} />
           <Footer changePage={this.props.changePage.bind(this)} />
         </div>
       );
@@ -143,13 +139,12 @@ class ShowPage extends Component {
 
   render() {
     return (
-      <div className="pageWrapper">{this.showPage(this.props.pageName)}</div>
+      <div className='pageWrapper'>{this.showPage(this.props.pageName)}</div>
     );
   }
 }
 
 export default App;
-
 
 //  const App = () => {
 
@@ -199,7 +194,7 @@ export default App;
 //             pageName="influencers"
 //             changePage={props.handleChangePage}
 //           />
-//           <GaiaSystem data={"artists"} />
+//           <GaiaSystem data={"projects"} />
 //           <Footer changePage={props.handleChangePage} />
 //         </div>
 //       );

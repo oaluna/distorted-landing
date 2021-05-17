@@ -104,11 +104,11 @@
   mix-blend-mode: difference;
 }
 
-/*
+
 .gaiaExtraActive {
   left: 0;
   border-left: solid 0px rgb(255, 195, 72);
-}*/
+}
 
 @keyframes gaiaExtraActive {
   0% {

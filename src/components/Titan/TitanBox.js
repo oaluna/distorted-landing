@@ -4,12 +4,12 @@ const TitanBox = (props) => (
   <div className='sectionContainer'>
     <div className='sectionContent'>
       <div className='sectionTitle'>
-        <h3>What makes us your most optimal solution</h3>
+        <h1>What Makes oscarluna.dev your Optimal Solution?</h1>
       </div>
       <div className='titanBoxContainer'>
         <div className='titanBoxContent'>
           <div className='titanBoxImage titanBoxIl2'>
-          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_VczlJO.json"  background="transparent"  speed="1"  style={{width: '700px', height: '700px'}} loop autoplay></lottie-player>
+          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_VczlJO.json"  background="transparent"  speed="1"  style={{width: '750px', height: '700px', margin: 'auto'}} loop autoplay></lottie-player>
           </div>
           <div className='titanBoxInfo'>
             <h2>
@@ -36,10 +36,10 @@ const TitanBox = (props) => (
               pharetra nulla. Sed viverra maximus lacinia.
             </p>
           </div>
-          <div className='titanBoxImage titanBoxIl1'> <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4VvdIQ.json"  background="transparent"  speed="1"  style={{width: '800px', height: '800px'}} loop  autoplay></lottie-player></div>
+          <div className='titanBoxImage titanBoxIl1'> <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4VvdIQ.json"  background="transparent"  speed="1"  style={{width: '900px', height: '900px', marginLeft: '-10vw'}} loop  autoplay></lottie-player></div>
 
           <div className='titanBoxImage titanBoxIl3'>
-          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_B2qAl3/data.json"  background="transparent"  speed="1"  style={{width: '700px', height: '700px'}}  loop  autoplay></lottie-player>
+          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_B2qAl3/data.json"  background="transparent"  speed="1"  style={{width: '800px', height: '800px', marginLeft: '-8vw', marginTop: '-25vh'}}  loop  autoplay></lottie-player>
           </div>
           <div className='titanBoxInfo'>
             <h2>

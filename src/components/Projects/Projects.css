@@ -1,4 +1,4 @@
-.artistsContainer {
+.projectsContainer {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,7 +7,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.artist {
+.project {
   width: 300px;
   height: 450px;
   border-radius: 20px;
@@ -17,12 +17,12 @@
   margin: auto;
 }
 
-.artist:hover {
+.project:hover {
   width: 310px;
   box-shadow: 3px 3px 12px 4px rgba(37, 42, 66, 0.6);
 }
 
-.artistCard {
+.projectCard {
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
@@ -39,7 +39,7 @@
   transition: border 0.2s ease-in-out;
 }
 
-.artistCard:before {
+.projectCard:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -54,27 +54,27 @@
   );
 }
 
-.artistName h3,
-.artistInfo h2,
-.artistInfo p {
+.projectName h3,
+.projectInfo h2,
+.projectInfo p {
   color: white !important;
 }
 
-.artistName {
+.projectName {
   z-index: 50;
   position: relative;
 }
 
-.artistInfo {
+.projectInfo {
   z-index: 50;
   position: relative;
 }
 
-.artistInfo h3 {
+.projectInfo h3 {
   padding-bottom: 10px;
 }
 
-.artistInfoSocials {
+.projectInfoSocials {
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -82,7 +82,7 @@
   justify-content: flex-start;
 }
 
-/*--- Style for the fixed page that comes from the right and show the artist in detail ---*/
+/*--- Style for the fixed page that comes from the right and show the project in detail ---*/
 
 .dragger {
   width: 1000px;
@@ -92,7 +92,7 @@
   border-radius: 10px;
 }
 
-.artistPage {
+.projectPage {
   z-index: 1000;
   position: fixed;
   width: 75vw;
@@ -104,7 +104,7 @@
   border-radius: 1000px;
 }
 
-.artistPageOpen {
+.projectPageOpen {
   z-index: 1000;
   position: fixed;
   top: 0;
@@ -125,7 +125,7 @@
   border-radius: 0px;
 }
 
-.artistPageTopbar {
+.projectPageTopbar {
   z-index: 1000;
   position: fixed;
   width: 75vw;
@@ -152,14 +152,14 @@
   color: #252a42;
 }
 
-.artistPageContent {
+.projectPageContent {
   max-width: 1000px;
   height: 500px;
   margin: 50px auto 20px auto;
   box-sizing: border-box;
 }
 
-.artistPageIntro {
+.projectPageIntro {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -169,7 +169,7 @@
   color: #252a42;
 }
 
-.artistPageImage {
+.projectPageImage {
   width: 150px;
   height: 150px;
   border-radius: 150px;
@@ -178,26 +178,26 @@
   box-shadow: 3px 3px 12px 4px rgba(37, 42, 66, 0.4);
 }
 
-.artistPageImage img {
+.projectPageImage img {
   width: 130%;
   float: right;
 }
 
-.artistPageSnippet {
+.projectPageSnippet {
   margin: auto 0 auto 0;
   padding-left: 20px;
 }
 
-.artistPageName {
+.projectPageName {
   display: flex;
   padding-bottom: 10px;
 }
 
-.artistPageName h3 {
+.projectPageName h3 {
   padding-right: 10px;
 }
 
-.artistPageTags {
+.projectPageTags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -217,14 +217,14 @@
   text-transform: uppercase;
 }
 
-.artistPageDescription {
+.projectPageDescription {
   min-width: 200px;
   max-width: 350px;
   font-size: 14px;
   padding-bottom: 20px;
 }
 
-.artistPageTab {
+.projectPageTab {
   z-index: 150;
   width: 95%;
   margin: 0 auto;
@@ -400,14 +400,14 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .artistPage {
+  .projectPage {
     width: 100%;
     height: 0;
     left: 0;
     top: 100%;
   }
 
-  .artistPageOpen {
+  .projectPageOpen {
     width: 100%;
     height: 120%;
     left: 0;
@@ -417,12 +417,12 @@
 
   }
 
-  .artistPageTopbar {
+  .projectPageTopbar {
     z-index: 150;
     width: 100vw;
   }
 
-  .artistPageIntro {
+  .projectPageIntro {
     margin: 0;
     z-index: -5;
     top: 80px;
@@ -442,21 +442,21 @@
     }
   }
 
-  .artistPageTab {
+  .projectPageTab {
     z-index: 150;
     margin-top: 70vh;
     padding: 10px;
     box-shadow: 3px 3px 12px 4px rgba(37, 42, 66, 0.2);
   }
 
-  .artistPageSnippet {
+  .projectPageSnippet {
     display: flex;
     flex-direction: column;
     padding: 0;
     text-align: center;
   }
-  .artistPageName,
-  .artistPageTags {
+  .projectPageName,
+  .projectPageTags {
     justify-content: center;
   }
 }

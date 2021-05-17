@@ -1,4 +1,4 @@
-import Artists from '../Artists/Artists';
+import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 import { ContactMenu } from '../Footer/Footer';
 import { CSSTransition } from 'react-transition-group';

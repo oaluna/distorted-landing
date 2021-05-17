@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './GaiaSystem.css';
-import artistsData from '../Artists/artistsData';
+import projectsData from '../Projects/projectsData';
 import worksData from '../../worksData';
-import PastelFalco from '../PastelFlaco/PastelFalco';
-
-import { millionRounder, toggleBackgroundFix } from '../Artists/functions.js';
+import PastelFalco from '../PastelFalco/PastelFalco';
+import Logo from '../../Logo';
+import { millionRounder, toggleBackgroundFix } from '../Projects/functions';
 
 const GaiaSystem = (props) => (
   <div className='gaiaContainer'>
@@ -15,20 +15,20 @@ const GaiaSystem = (props) => (
 );
 
 const GetData = (props) => {
-  if (props.data === 'artists') {
-    const artists = artistsData.map((item) => (
+  if (props.data === 'projects') {
+    const projects = projectsData.map((item) => (
       <GaiaBox key={item.id} item={item} />
     ));
-    return artists;
+    return projects;
   } else if (props.data === 'works') {
-    const artists = worksData.map((item) => (
+    const projects = worksData.map((item) => (
       <GaiaBox key={item.id} item={item} />
     ));
-    return artists;
+    return projects;
   }
 };
 
-/*---  Clas for displaying single artists  ---*/
+/*---  Clas for displaying single projects  ---*/
 
 const GaiaBox = (props) => {
   const [gaiaExtraOpen, setGaiaExtraOpen] = useState(false);
@@ -69,11 +69,7 @@ function BoxBottom(props) {
   if (props.item.logo.url !== null) {
     return (
       <div className='gaiaBoxBottom'>
-        <img
-          className='gaiaBoxLogo'
-          src={props.item.logo.url}
-          alt='Gaia Logo'
-        />
+        <Logo />
       </div>
     );
   } else {
@@ -90,7 +86,7 @@ function BoxBottom(props) {
   }
 }
 
-/*---  Clas for displaying extra info about artist  ---*/
+/*---  Clas for displaying extra info about project  ---*/
 
 const GaiaExtra = (props) => {
   return (

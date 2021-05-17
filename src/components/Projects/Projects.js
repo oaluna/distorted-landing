@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import artistsData from './artistsData.js';
-import './Artists.css';
+import projectsData from './projectsData.js';
+import './Projects.css';
 
 import {
   millionRounder,
@@ -8,15 +8,15 @@ import {
   toggleBackgroundFix
 } from './functions.js';
 
-const Artists = () => {
-  const artists = artistsData.map((item) => (
-    <ArtistBox key={item.id} item={item} />
+const Projects = () => {
+  const projects = projectsData.map((item) => (
+    <ProjectBox key={item.id} item={item} />
   ));
 
-  return <div className='artistsContainer'>{artists}</div>;
+  return <div className='projectsContainer'>{projects}</div>;
 };
 
-const ArtistBox = (props) => {
+const ProjectBox = (props) => {
   const [open, setOpen] = useState(false);
 
   const openBox = () => {
@@ -35,17 +35,17 @@ const ArtistBox = (props) => {
   };
 
   return (
-    <div className='artist'>
-      <div className='artistCard' style={urlImg} onClick={openBox} />
-      <div className='artistName'>
+    <div className='project'>
+      <div className='projectCard' style={urlImg} onClick={openBox} />
+      <div className='projectName'>
         <h3>{props.item.name}</h3>
         <h3>{props.item.surname}</h3>
       </div>
-      <div className='artistInfo'>
+      <div className='projectInfo'>
         <p>Total followers:</p>
         <h2>{reach}</h2>
         <p>Socials:</p>
-        <div className='artistInfoSocials'>
+        <div className='projectInfoSocials'>
           <SocialIconPrinter tag={props.item.tagYoutube} social='Youtube' />
           <SocialIconPrinter tag={props.item.tagInstagram} social='Instagram' />
           <SocialIconPrinter tag={props.item.tagFacebook} social='Facebook' />
@@ -53,49 +53,48 @@ const ArtistBox = (props) => {
           <SocialIconPrinter tag={props.item.tagTwitter} social='Twitter' />
         </div>
       </div>
-      <ArtistPage open={open} item={props.item} closeBox={closeBox} />
+      <ProjectPage open={open} item={props.item} closeBox={closeBox} />
     </div>
   );
 };
 
-const ArtistPage = (props) => {
+const ProjectPage = (props) => {
   const [isOpen, setIsOpen] = useState(props.open);
   const handleClose = () => {
     return props.closeBox();
   };
   return (
-    <div className={isOpen ? 'artistPageOpen' : 'artistPage'}>
-      <div className='artistPageTopbar'>
+    <div className={isOpen ? 'projectPageOpen' : 'projectPage'}>
+      <div className='projectPageTopbar'>
         <h3 className='returnButton' onClick={handleClose}>
           +
         </h3>
       </div>
-      <div className='artistPageContent'>
-        <div className='artistPageIntro'>
-          <div className='artistPageImage'>
+      <div className='projectPageContent'>
+        <div className='projectPageIntro'>
+          <div className='projectPageImage'>
             <img src={props.item.urlBanner} alt='banner of urls' />
           </div>
-          <div className='artistPageSnippet'>
-            <div className='artistPageName'>
+          <div className='projectPageSnippet'>
+            <div className='projectPageName'>
               <h3>{props.item.name}</h3>
               <h3>{props.item.surname}</h3>
             </div>
-            <div className='artistPageTags'>
+            <div className='projectPageTags'>
               <h4 className='Tag'>Fashion</h4>
               <h4 className='Tag'>Vlogs</h4>
             </div>
-            <div className='artistPageDescription'>
+            <div className='projectPageDescription'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A case history of my previous works. If You'd like to see more visit <a href="https://oscarluna.dev">oscarluna.dev</a>.
               </p>
             </div>
           </div>
         </div>
 
-        <div className='artistPageTab'>
+        <div className='projectPageTab'>
           <div className='dragger' />
-          <ArtistPageTabs item={props.item} />
+          <ProjectPageTabs item={props.item} />
         </div>
       </div>
     </div>
@@ -139,7 +138,7 @@ function SocialBoxesPrinter(props) {
   }
 }
 
-const ArtistPageTabs = (props) => {
+const ProjectPageTabs = (props) => {
   const [activePageSocials, setActivePageSocials] = useState(true);
   const [activePageWorks, setActivePageWorks] = useState(false);
   const [activePageStats, setActivePageStats] = useState(false);
@@ -206,4 +205,4 @@ const ArtistPageTabs = (props) => {
   );
 };
 
-export default Artists;
+export default Projects;

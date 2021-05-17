@@ -1,4 +1,4 @@
-import '../PastelFlaco/PastelFalco.css';
+import '../PastelFalco/PastelFalco.css';
 
 const MiraContacts = () => (
   <div className='miraContainer'>
@@ -15,13 +15,12 @@ const MiraContacts = () => (
       <div className='miraBox'>
         <div className='miraContactBox'>
           <h3> Say Hello </h3>
-          <h4> oscarluna.webdev@gmail.com </h4>
-
+          <h4> oscar@oscarluna.dev </h4>
         </div>
 
         <div className='miraContactBox'>
           <h3> Mande un saludo </h3>
-          <h4> oscarluna.webdev@gmail.com </h4>
+          <h4> oscar@oscarluna.dev </h4>
         </div>
       </div>
     </div>

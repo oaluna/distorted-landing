@@ -1,25 +1,25 @@
 const worksData = [
   {
     id: 1,
-    category: "artist",
+    category: 'project',
     image1: {
       url:
-        "https://www.teamworld.it/wp-content/uploads/2019/02/A-UN-METRO-DA-TE-FOTO-FILM.jpg",
-      class: "pastelImageLarge"
+        'https://images.pexels.com/photos/1606386/pexels-photo-1606386.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+      class: 'pastelImageLarge'
     },
     logo: {
-      url: null,
-      class: "pastelImageSmall"
+      url: 'https://images.pexels.com/photos/1606386/pexels-photo-1606386.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+      class: 'pastelImageSmall'
     },
     card: {
-      title: "Adv Campaign on TikTok for The Movie: Five Feet Apart",
-      text: "Total reach:",
+      title: 'Portfolio website created. Visit https://oscarluna.dev',
+      text: 'Total reach:',
       number: 12000000
     },
     info1: {
-      title: "Adv Campaign on TikTok for The Movie: Five Feet Apart",
+      title: 'Portfolio website created. Visit https://oscarluna.dev',
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus arcu, sit amet pulvinar mauris vulputate et. Maecenas sed venenatis purus. Phasellus nec semper libero, eget pharetra nulla. Sed viverra maximus lacinia. Sed condimentum lorem orci, vitae finibus nunc viverra a. Suspendisse volutpat imperdiet leo, sit amet tincidunt sapien interdum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ultricies eu dui ac finibus."
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus arcu, sit amet pulvinar mauris vulputate et. Maecenas sed venenatis purus. Phasellus nec semper libero, eget pharetra nulla. Sed viverra maximus lacinia. Sed condimentum lorem orci, vitae finibus nunc viverra a. Suspendisse volutpat imperdiet leo, sit amet tincidunt sapien interdum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ultricies eu dui ac finibus.'
     },
     info2: {
       title: null,
@@ -30,32 +30,32 @@ const worksData = [
       text: null
     },
     tags: {
-      tag1: "Advertising",
-      tag2: "Movie",
-      tag3: "Tik-Tok",
-      tag4: "High-engagement",
-      tag5: "Wide reach"
+      tag1: 'Web',
+      tag2: 'Portfolio',
+      tag3: 'Web Development',
+      tag4: 'For Hire',
+      tag5: 'Front-End Developer'
     },
     stats1: {
-      title: "Campaign Results:",
+      title: 'Campaign Results:',
 
       url1: null,
-      social1: "Views",
-      number1: 12000000,
-      tag1: "and counting",
+      social1: null,
+      number1: null,
+      tag1: 'and counting',
 
       url2: null,
-      social2: "Interactions",
-      number2: 1600000,
-      tag2: "and counting",
+      social2: null,
+      number2: null,
+      tag2: 'and counting',
 
       url3: null,
-      social3: "Short-videos",
+      social3: null,
       number3: 96,
       tag3: null,
 
       url4: null,
-      social4: "Influencers",
+      social4: null,
       number4: 19,
       tag4: null,
 

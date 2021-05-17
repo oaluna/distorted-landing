@@ -1,9 +1,9 @@
-const artistsData = [
+const projectsData = [
   {
     id: 1,
-    title: "Artists",
-    description: "description"
+    title: 'Projects',
+    description: 'A case history of previous projects I have created. To learn more visit <a href="https://oscarluna.dev">oscarluna.dev</a>.'
   }
 ];
 
-export default artistsData;
+export default projectsData;

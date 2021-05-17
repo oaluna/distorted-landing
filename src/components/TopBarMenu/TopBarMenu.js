@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from "../../Logo";
+import Logo from '../../Logo';
 import './TopBarMenu.css';
 
 const TopBarMenu = (props) => {
@@ -32,26 +32,30 @@ const TopBarMenu = (props) => {
         <div
           onClick={toggleMenu}
           className={
-            mobileMenuActive
-              ? 'menuContainer menuOpen'
-              : 'menuContainer'
+            mobileMenuActive ? 'menuContainer menuOpen' : 'menuContainer'
           }>
           <div className='colorBarMenu' />
 
           <div className='menuContent'>
-            <div className='logoWrapper' style={{position: 'relative'}}onClick={(e) => showPage('homepage')}>
-              <span><Logo style={{height: '50px'}}/></span>
+            <div
+              className='logoWrapper'
+              style={{ position: 'relative' }}
+              onClick={(e) => showPage('homepage')}>
+              <span>
+                <Logo style={{ height: '50px' }} />
+              </span>
             </div>
 
             <div className='menuItems'>
-              <p onClick={(e) => showPage('services')}> Services </p>
-              <p onClick={(e) => showPage('works')}> Case History </p>
-              <p onClick={(e) => showPage('aboutus')}> About Us </p>
+              <button onClick={(e) => showPage('services')}><p> Services </p></button>
+              <button onClick={(e) => showPage('works')}><p> Case History </p></button>
+              <button onClick={(e) => showPage('projects')}><p>Projects</p></button>
+              <button onClick={(e) => showPage('aboutus')}><p> About Us </p></button>
               <button
                 className='mediumButton'
                 onClick={(e) => showPage('aboutus')}>
                 {' '}
-                Get a Quote{' '}
+                <p>Get a Quote</p>{' '}
               </button>
             </div>
           </div>

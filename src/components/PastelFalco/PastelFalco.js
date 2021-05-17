@@ -1,6 +1,5 @@
 import './PastelFalco.css';
-
-import { millionRounder, toggleBackgroundFix } from '../Artists/functions.js';
+import { millionRounder, toggleBackgroundFix } from '../Projects/functions.js';
 
 const pastelStats = (stats) => (
   <div className='pastelBox pastelBoxFull'>
@@ -64,7 +63,7 @@ const pastelWorks = (works) => (
 
 const pastelImage = (image) => {
   const style = {
-    backgroundImage:'src(../../sailormoon.svg)'
+    backgroundImage: 'src(../../sailormoon.svg)'
   };
 
   return <div className='pastelBox' style={style} />;
@@ -93,8 +92,8 @@ const PastelFalco = (props) => (
     <button className='pastelReturn' onClick={props.closeGaiaExtra}>
       <h3> X </h3>
     </button>
-
     <div className='pastelContent'>
+
       {props.item.image1.url ? pastelImage(props.item.image1) : null}
       {props.item.info1.title
         ? pastelInfo(props.item.info1, props.item.tags)
